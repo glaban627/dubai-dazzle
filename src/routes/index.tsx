@@ -1,29 +1,44 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/bwn/Navbar";
+import { Hero } from "@/components/bwn/Hero";
+import { About } from "@/components/bwn/About";
+import { Services } from "@/components/bwn/Services";
+import { PortfolioPreview } from "@/components/bwn/PortfolioPreview";
+import { WhyBWN } from "@/components/bwn/WhyBWN";
+import { Clients } from "@/components/bwn/Clients";
+import { Process } from "@/components/bwn/Process";
+import { ContactCTA } from "@/components/bwn/ContactCTA";
+import { Footer } from "@/components/bwn/Footer";
+import { Loader } from "@/components/bwn/Loader";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "BWN Decoration Design — Luxury Interior Design & Joinery in Dubai" },
+      { name: "description", content: "Your imagination partner for luxury interior design, joinery, furniture, fit-out, flooring and exhibition stands in Dubai, UAE." },
+      { property: "og:title", content: "BWN Decoration Design — Your Imagination Partner" },
+      { property: "og:description", content: "Luxury interior design, joinery & fit-out solutions crafted in Dubai." },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <>
+      <Loader />
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <PortfolioPreview />
+        <WhyBWN />
+        <Clients />
+        <Process />
+        <ContactCTA />
+      </main>
+      <Footer />
+    </>
   );
 }
