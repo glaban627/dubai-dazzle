@@ -1,33 +1,33 @@
-import kitchen1 from "@/assets/bwn/kitchen1.jpg.asset.json";
-import kitchen2 from "@/assets/bwn/kitchen2.jpg.asset.json";
-import kitchenLiving from "@/assets/bwn/kitchen-living.jpg.asset.json";
-import restaurant from "@/assets/bwn/restaurant.jpg.asset.json";
-import living1 from "@/assets/bwn/living1.jpg.asset.json";
-import living2 from "@/assets/bwn/living2.jpg.asset.json";
-import flooring from "@/assets/bwn/flooring.jpg.asset.json";
-import exhibition from "@/assets/bwn/exhibition.jpg.asset.json";
-import lazyboy from "@/assets/bwn/lazyboy.jpg.asset.json";
-import huawei from "@/assets/bwn/huawei.jpg.asset.json";
-import reception from "@/assets/bwn/reception.jpg.asset.json";
-import sofa from "@/assets/bwn/sofa.jpg.asset.json";
-import workshop from "@/assets/bwn/workshop.jpg.asset.json";
-import contactBg from "@/assets/bwn/contact-bg.jpg.asset.json";
+import kitchen1 from "@/assets/bwn/kitchen1.jpg";
+import kitchen2 from "@/assets/bwn/kitchen2.jpg";
+import kitchenLiving from "@/assets/bwn/kitchen-living.jpg";
+import restaurant from "@/assets/bwn/restaurant.jpg";
+import living1 from "@/assets/bwn/living1.jpg";
+import living2 from "@/assets/bwn/living2.jpg";
+import flooring from "@/assets/bwn/flooring.jpg";
+import exhibition from "@/assets/bwn/exhibition.jpg";
+import lazyboy from "@/assets/bwn/lazyboy.jpg";
+import huawei from "@/assets/bwn/huawei.jpg";
+import reception from "@/assets/bwn/reception.jpg";
+import sofa from "@/assets/bwn/sofa.jpg";
+import workshop from "@/assets/bwn/workshop.jpg";
+import contactBg from "@/assets/bwn/contact-bg.jpg";
 
 export const IMG = {
-  kitchen1: kitchen1.url,
-  kitchen2: kitchen2.url,
-  kitchenLiving: kitchenLiving.url,
-  restaurant: restaurant.url,
-  living1: living1.url,
-  living2: living2.url,
-  flooring: flooring.url,
-  exhibition: exhibition.url,
-  lazyboy: lazyboy.url,
-  huawei: huawei.url,
-  reception: reception.url,
-  sofa: sofa.url,
-  workshop: workshop.url,
-  contactBg: contactBg.url,
+  kitchen1,
+  kitchen2,
+  kitchenLiving,
+  restaurant,
+  living1,
+  living2,
+  flooring,
+  exhibition,
+  lazyboy,
+  huawei,
+  reception,
+  sofa,
+  workshop,
+  contactBg,
 };
 
 export const PORTFOLIO = [
